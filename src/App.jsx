@@ -35,7 +35,7 @@ const TerminalLoader = ({ onComplete }) => {
 
   useEffect(() => {
     let mounted = true;
-    const typingSpeed = 800; // ms between lines (increase to slow down)
+    const typingSpeed = 500; // ms between lines (increase to slow down)
     const finalPause = 1000;  // ms to wait after last line before hiding
 
     const timeouts = [];
